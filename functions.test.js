@@ -22,3 +22,4 @@ it("ignores special characters", () => {
 
     expect(result).toBe("-..- -.-- ");
 })
+

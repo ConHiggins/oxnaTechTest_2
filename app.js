@@ -6,7 +6,7 @@ const button = document.querySelector(".output-button");
 const answer = document.querySelector(".output");
 
 
-
+console.log("running");
 
 button.addEventListener("click", () => {
 
