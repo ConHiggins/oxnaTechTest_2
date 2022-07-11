@@ -8,14 +8,13 @@ export const translate = (input) => {
     for(let i=0; i<individualLetters.length; i++) {
 
         let ASCIIchar = individualLetters[i].charCodeAt(0);
+
         if((ASCIIchar >= 65 && ASCIIchar <= 90) )
             {outputArr.push(morseArray[ASCIIchar-65]);
-            outputArr.push(" "); }
+            outputArr.push("    "); }
         else if (ASCIIchar >= 48 && ASCIIchar <= 57) 
             { outputArr.push(morseArray[ASCIIchar-22]); 
-              outputArr.push(" ");}
-
-            
+              outputArr.push("    ");}
         
     }
 
